@@ -1,0 +1,22 @@
+.env
+.venv
+__pycache__/
+*.pyc
+*.egg-info/
+node_modules/
+dist/
+.DS_Store
+pgdata/
+
+# Environment and secrets
+.env.*
+!.env.example
+
+# Build and test artifacts
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Database backups
+backups/
+*.sql
